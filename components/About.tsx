@@ -23,26 +23,31 @@ export default function About() {
 
         <div className="flex flex-col items-center justify-center gap-12">
           <motion.div
-             initial={{ opacity: 0, y: 30 }}
-             whileInView={{ opacity: 1, y: 0 }}
-             viewport={{ once: true, margin: "-100px" }}
-             transition={{ duration: 0.5, delay: 0.2 }}
-             className="w-full max-w-4xl text-center mx-auto"
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+            className="w-full max-w-4xl text-center mx-auto"
           >
-            <h3 className="text-2xl font-semibold mb-4">Full Stack Developer</h3>
+            <h3 className="text-2xl font-semibold mb-4">
+              Full Stack Developer | Backend-Focused Engineer
+            </h3>
+
             <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-              I am a passionate software developer currently pursuing my MCA at Amal Jyothi College of Engineering. 
-              My journey started with a strong foundation in computer applications from SB College, and since then, 
-              I have been dedicated to building impactful digital solutions.
+              I am a Full Stack Developer with a strong focus on backend engineering and scalable system design.
+              Currently working as a Junior Software Engineer at OctaScaler Innovations, I specialize in building
+              high-performance APIs using TypeScript and NestJS, along with handling large-scale data processing.
             </p>
+
             <p className="text-muted-foreground text-lg mb-8 leading-relaxed">
-              With experience at Calibr as an Associate Software Developer and freelance projects like Upavan Villa, 
-              I specialize in creating seamless, scalable, and beautifully designed web architectures using React, Next.js, and Node.js. 
-              When I&apos;m not coding, I focus on exploring new web technologies and solving real-world problems.
+              I have hands-on experience designing real-world systems including POS platforms, hotel management systems,
+              and food ordering workflows. I have worked with AWS services like S3 and SQS, optimized bulk data operations,
+              and built robust REST APIs with complex business logic. Alongside backend development, I build modern frontend
+              applications using React and Next.js.
             </p>
 
             <Link
-              href="https://drive.google.com/file/d/1A30EaYn9mzJIlW0Y0NYFNLj6r1RKhxZA/view?usp=sharing"
+              href="https://drive.google.com/file/d/1J7ZOZVKtHmDMTqvDf73EDU9PilXTe5U6/view?usp=sharing"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 px-6 py-3 bg-foreground text-background rounded-full font-medium transition-transform hover:scale-105 active:scale-95 shadow-lg"
