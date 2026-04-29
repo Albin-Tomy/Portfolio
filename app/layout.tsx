@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Midhun Dominic | Full Stack Developer",
-  description: "Portfolio of Midhun Dominic, a Full Stack Developer specializing in Next.js, MERN stack, and modern web applications.",
+  title: "Albin Tomy | Full Stack Developer",
+  description: "Portfolio of Albin Tomy, a Full Stack Developer specializing in Nest.js and modern web applications.",
 };
 
 export default function RootLayout({
