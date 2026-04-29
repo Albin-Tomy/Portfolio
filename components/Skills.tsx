@@ -17,19 +17,27 @@ import {
 
 export default function Skills() {
   const skills = [
-    { name: "React", icon: Atom, category: "Frontend" },
-    { name: "Next.js", icon: Layers, category: "Frontend" },
-    { name: "TypeScript", icon: Code2, category: "Language" },
-    { name: "Tailwind CSS", icon: Wind, category: "Frontend" },
-    { name: "Node.js", icon: Server, category: "Backend" },
-    { name: "Express", icon: Network, category: "Backend" },
-    { name: "MongoDB", icon: Database, category: "Database" },
-    { name: "PostgreSQL", icon: HardDrive, category: "Database" },
-    { name: "Supabase", icon: Database, category: "Database" },
-    { name: "Docker", icon: Container, category: "DevOps" },
-    { name: "Azure", icon: Cloud, category: "Cloud" },
-    { name: "Git", icon: GitBranch, category: "Tools" },
-  ];
+  { name: "TypeScript", icon: Code2, category: "Language" },
+  { name: "JavaScript", icon: Code2, category: "Language" },
+
+  { name: "React", icon: Atom, category: "Frontend" },
+  // { name: "Next.js", icon: Layers, category: "Frontend" },
+  // { name: "Tailwind CSS", icon: Wind, category: "Frontend" },
+
+  { name: "NestJS", icon: Server, category: "Backend" },
+  // { name: "Node.js", icon: Server, category: "Backend" },
+  // { name: "Express", icon: Network, category: "Backend" },
+  { name: "Django", icon: Server, category: "Backend" },
+
+  { name: "MongoDB", icon: Database, category: "Database" },
+  { name: "PostgreSQL", icon: HardDrive, category: "Database" },
+  { name: "ClickHouse", icon: Database, category: "Database" },
+  { name: "MySQL", icon: Database, category: "Database" },
+
+  { name: "AWS (S3, SQS)", icon: Cloud, category: "Cloud" },
+  { name: "Docker", icon: Container, category: "DevOps" },
+  { name: "Git", icon: GitBranch, category: "Tools" },
+];
 
   const containerVariants: Variants = {
     hidden: { opacity: 0 },
