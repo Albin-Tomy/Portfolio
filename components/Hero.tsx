@@ -29,7 +29,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.1 }}
           className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6"
         >
-          Hi, I&apos;m <span className="text-primary">Midhun Dominic</span>
+          Hi, I&apos;m <span className="text-primary">Albin Tomy</span>
           <br className="hidden md:block" />
           <span className="text-foreground/80 text-4xl md:text-6xl mt-2 block">Full Stack Developer.</span>
         </motion.h1>
@@ -41,8 +41,8 @@ export default function Hero() {
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
         >
           Passionate Full stack web developer
-          <br/>
-          building end-to-end solutions with Next JS, React, Node JS, Express JS and strong testing expertise.
+          <br />
+          Backend-focused Full Stack Developer experienced in building scalable APIs and real-world applications using TypeScript and NestJS.
         </motion.p>
 
         <motion.div

@@ -53,7 +53,7 @@ export default function Navbar() {
     >
       <div className="container mx-auto px-6 max-w-6xl flex items-center justify-between">
         <Link href="/" className="text-xl font-bold tracking-tighter">
-          <span className="text-primary hover:text-primary/50">Midhun Dominic</span>
+          <span className="text-primary hover:text-primary/50">Albin Tomy</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-8 text-sm font-medium">
