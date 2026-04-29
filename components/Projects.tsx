@@ -8,21 +8,12 @@ import Image from "next/image";
 export default function Projects() {
   const projects = [
     {
-      title: "Medicloud",
-      description: "A comprehensive platform connecting patients to healthcare providers. Features online consultation, medicine delivery, role-based dashboards, OTP authentication, and an AI chatbot service utilizing the OpenAI API.",
-      image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=800",
-      techStack: ["React.js", "Node.js", "MongoDB", "Express"],
-      liveLink: "https://mediclouds.onrender.com/",
-      githubLink: "https://github.com/midhundominic/eCare/tree/development",
-    },
-    {
-      title: "Upavan Villa",
-      description: "A full-stack booking platform for a villa with seamless frontend-backend integration. Features real-time room availability, secure online booking, email notifications, and a comprehensive admin dashboard.",
-      image: "https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=800",
-      techStack: ["Next.js", "Tailwind CSS", "Supabase"],
-      liveLink: "https://upavanvilla.com/",
-      githubLink: "https://github.com/midhundominic/upavan_villa",
-    }
+  title: "ReCircle Hub",
+  description: "A full-stack eco-commerce platform for sustainable product purchases and waste management. Includes reward systems, order workflows, and waste pickup scheduling.",
+  techStack: ["React.js", "Django", "PostgreSQL"],
+  liveLink: "#",
+  githubLink: "https://github.com/Albin-Tomy/ReCircle_Hub",
+},
   ];
 
   return (
@@ -59,7 +50,7 @@ export default function Projects() {
                 <div className="absolute inset-0 bg-primary/20 group-hover:opacity-0 transition-opacity duration-500 z-10" />
 
                 <img
-                  src={project.image}
+                  // src={project.image}
                   alt={project.title}
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
                 />
@@ -89,14 +80,14 @@ export default function Projects() {
                   >
                     <Github className="w-4 h-4" /> Code
                   </Link>
-                  <Link
+                  {/* <Link
                     href={project.liveLink}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-sm font-medium text-foreground hover:text-primary transition-colors ml-auto"
                   >
                     Live Demo <ExternalLink className="w-4 h-4" />
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </motion.div>
